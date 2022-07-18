@@ -8,6 +8,18 @@
     "Simon Warta",
     "Mike Purvis @mikedotexe"
   ],
+  "keywords": [
+    "cosmos",
+    "blockchain",
+    "repl",
+    "csli",
+    "cosmwasm",
+    "cosmjs"
+  ],
+  "bugs": {
+    "url": "https://github.com/csli-tools/repl/issues",
+    "email": "mikedotexe@gmail.com"
+  },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
