@@ -1,5 +1,7 @@
 # `@csli/repl` — a REPL using @cosmjs
 
+First and foremost, shout-out to [Simon Warta](https://twitter.com/simon_warta) for making the [@cosmjs/cli](https://www.npmjs.com/package/@cosmjs/cli), which is where most of this code is taken from. It feels like the intentions of this project will likely depart far enough from the original that it makes sense to have its own package. 
+
 ## Installation and first run
 
 The `cslir` executable is available via npm. We recommend local
