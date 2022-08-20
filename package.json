@@ -2,7 +2,7 @@
   "name": "@csli/repl",
   "type": "module",
   "module": "es2022",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a REPL connecting to Cosmos blockchains using the @cosmjs suite of libraries",
   "contributors": [
     "Simon Warta",
