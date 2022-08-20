@@ -45,8 +45,7 @@
     "cslir": "bin/cslir.mjs"
   },
   "files": [
-    "build/",
-    "tsconfig_repl.json",
+    "src/",
     "*.md",
     "!*.spec.*",
     "!**/testdata/"
