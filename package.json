@@ -35,16 +35,14 @@
     "format-text": "prettier --write \"./*.md\"",
     "lint": "eslint --max-warnings 0 \"./**/*.ts\" \"./*.js\"",
     "lint-fix": "eslint --fix --max-warnings 0 \"./**/*.ts\" \"./*.js\"",
-    "build": "rm -rf ./build && tsc",
-    "build-or-skip": "[ -n \"$SKIP_BUILD\" ] || yarn build",
-    "start": "yarn build-or-skip && node --experimental-modules --es-module-specifier-resolution=node bin/cosmjs-cli",
-    "selftest": "yarn build-or-skip && ./bin/cosmjs-cli --selftest",
-    "test-node": "yarn node jasmine-testrunner.js",
-    "test": "yarn build-or-skip && yarn test-node",
-    "coverage": "nyc --reporter=text --reporter=lcov yarn test --quiet"
+    "start": "node --experimental-modules --es-module-specifier-resolution=node bin/cslir",
+    "selftest": "./bin/cslir --selftest",
+    "test-node": "npm run node jasmine-testrunner.js",
+    "test": "npm run test-node",
+    "coverage": "nyc --reporter=text --reporter=lcov npm run test --quiet"
   },
   "bin": {
-    "cslir": "bin/cslir"
+    "cslir": "bin/cslir.mjs"
   },
   "files": [
     "build/",
